@@ -1,0 +1,8 @@
+namespace d_iwh_nsh.NSH_DB.md.tables;
+
+entity PT_IWH_NSH_MDTABLE1 {
+
+    @Comment : 'MD Table Column1 description'
+    "COL1"        : String(4);
+    
+};

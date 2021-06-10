@@ -1,0 +1,34 @@
+ID: D_IWH_NSH
+_schema-version: '2.1'
+description: Native Solutions Community
+version: 0.0.1
+
+modules:
+ - name: NSH_DB
+   type: hdb
+   path: NSH_DB
+   requires:
+    - name: hdi_NSH_DB
+
+
+ - name: NSH_JS
+   type: nodejs
+   path: NSH_JS
+   provides:
+    - name: NSH_JS_api
+      properties:
+         url: ${default-url}
+
+
+ - name: NSH_HTML
+   type: html5
+   path: NSH_HTML
+
+resources:
+ - name: hdi_NSH_DB
+   parameters:
+      config:
+         schema: SXNSH
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
