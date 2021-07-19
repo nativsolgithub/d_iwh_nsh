@@ -9,7 +9,7 @@ entity PT_IWH_NSH_MDTABLE1 {
 
 entity PT_IWH_NSH_MDTABLE2 {
 
-    @Comment : 'MD Table Column1 description....'
+    @Comment : 'MD Table Column1 description....TBRANCH Change'
     "COL1"        : String(4);
     
 };
