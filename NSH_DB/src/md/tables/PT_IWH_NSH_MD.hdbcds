@@ -20,3 +20,10 @@ entity PT_IWH_NSH_MDTABLE3 {
     "COL1"        : String(4);
     
 };
+
+entity PT_IWH_NSH_MDTABLE4 {
+
+    @Comment : 'MD Table Column1 description....'
+    "COL1"        : String(4);
+    
+};
